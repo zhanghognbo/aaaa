@@ -25,5 +25,5 @@
 # print(list2)
 # list2=sorted(list2,reverse=True)
 # print(list2)
+# print(int('101',10))
 
-print(int('101',10))
