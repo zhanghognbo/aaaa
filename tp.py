@@ -1,14 +1,18 @@
-c=open("d://aa.jpg","rb+")
-b=c.read()
-d=open("d://cc.jpg","wb+")
-d.write(b)
+import shutil
+src="d:/复制图片/aa.jpg"
+dst="e:/复制到这/aa.jpg"
+shutil.copyfile(src,dst)
+print("ok")
 
-c1=open("d://aa.jpg","rb+")
-b=c1.read()
-d=open("d://dd.jpg","wb+")
-d.write(b)
 
-c2=open("d://aa.jpg","rb+")
-b=c2.read()
-d=open("d://ee.jpg","wb+")
-d.write(b)
+aa="d://复制图片/ee.jpg"
+bb="e://复制到这/ee.jpg"
+shutil.copyfile(aa,bb)
+print("ok")
+
+cc="d://复制图片/dd.jpg"
+dd="e://复制到这/dd.jpg"
+shutil.copyfile(cc,dd)
+print("ok")
+
+
