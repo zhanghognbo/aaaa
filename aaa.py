@@ -95,4 +95,8 @@ test2(100,200)
 #     for j in range(1,i+1):
 #         print("%s*%s=%s"%(j,i,i*j),end='  ')
 #     print()
+print([3] in [1,2,[3],4])
+a=3
+b=3
+print(a is b)
 
