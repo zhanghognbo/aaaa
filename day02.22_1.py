@@ -22,18 +22,18 @@
 # print(list1)
 # list1=sorted(list1,reverse=True)
 # print(list1)
-list=[]
-for i in range(101,201):
-    bool=True
-    for j in range(2,i-1):
-        if(i%j==0):
-            bool=False
-    if(bool==True):
-        print(bool)
-        list.append(i)
-    else:
-        continue
-print(list)
+# list=[]
+# for i in range(101,201):
+#     bool=True
+#     for j in range(2,i-1):
+#         if(i%j==0):
+#             bool=False
+#     if(bool==True):
+#         print(bool)
+#         list.append(i)
+#     else:
+#         continue
+# print(list)
 # for i in range(101,201):
 #     bool=True
 #     for j in range(2,i-1):

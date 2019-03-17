@@ -47,7 +47,6 @@
 # if n<=0:
 #     print("请输正整数：")
 # elif n==1:
-#
 #     print(n1)
 # else:
 #     print("斐波那契数列：")
@@ -58,6 +57,21 @@
 #         n1=n2
 #         n2=a
 #         count+=1
-print(int('101',2))
+# print(int('101',2))
+# x=[1,2,3]
+# x.insert(1,4)
+# print(x)
+# a = '1,2,3,4,5,6'
+# la=a.split(",")
+# print(la)
+# print(type(la))
+
+# print(5 if 5>6 else (6 if 3>2 else 5)) #6
+# print({1,2,3,4} | {3,4,5,6})
+def func(a=5,b=10,c=15):
+	print(a+b+c)
+func(7,8)
+
+
 
 

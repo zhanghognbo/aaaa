@@ -1,6 +1,6 @@
-phone=input("请输入手机号：")
-# isdiget()判断是否字符串是否是数字
-print(phone.isdigit())
+# phone=input("请输入手机号：")
+# # isdiget()判断是否字符串是否是数字
+# print(phone.isdigit())
 # try:
 #     print('请输入你的手机号')
 #     # 识别是否全数字
@@ -39,3 +39,6 @@ print(phone.isdigit())
 # print("随机排序列表：",list)
 # aaa=random.choice(range(100))
 # print(aaa)
+# 字符串翻转：
+a=input("请输入字符串：")
+print(a[::-1])
